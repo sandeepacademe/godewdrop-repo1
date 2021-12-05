@@ -24,7 +24,6 @@ import (
 func main() {
 	// Create a new Echo web server instance
 	e := echo.New()
-	i := 1
 	// Initialize required handlers
 	log.Print("Initialize..")
 	initialization(e)
